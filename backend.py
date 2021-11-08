@@ -22,6 +22,8 @@ lmnd = yf.Ticker("LMND")
 mrvl = yf.Ticker("MRVL")
 gmsqf = yf.Ticker("GMSQF")
 
+stocks = [pltr, wfc, bac, bidu, ai, ba, bprm, crsr, curi, ddog, fsk, maps, o, penn, tcehy, iipr, lmnd, mrvl, gmsqf]
+
 # list of funds
 qqq = yf.Ticker("QQQ")
 tqqq =  yf.Ticker("TQQQ")
@@ -133,3 +135,36 @@ curi_revenue_growth = curi.info['revenueGrowth']
 curi_debt = curi.info['totalDebt']
 curi_cash = curi.info['totalCash']
 curi_revenue_per_share = curi.info['revenuePerShare']
+
+ddog_price = ddog.info['currentPrice']
+ddog_eps = ddog.info['trailingEps']
+ddog_pe = ddog_price/ddog_eps
+ddog_ps = ddog.info['priceToSalesTrailing12Months']
+ddog_mkt_cap = ddog.info['marketCap']
+ddog_revenue = ddog.info['totalRevenue']
+ddog_revenue_growth = ddog.info['revenueGrowth']
+ddog_debt = ddog.info['totalDebt']
+ddog_cash = ddog.info['totalCash']
+ddog_revenue_per_share = ddog.info['revenuePerShare']
+
+fsk_price = fsk.info['currentPrice']
+fsk_eps = fsk.info['trailingEps']
+fsk_pe = fsk_price/fsk_eps
+fsk_ps = fsk.info['priceToSalesTrailing12Months']
+fsk_mkt_cap = fsk.info['marketCap']
+fsk_revenue = fsk.info['totalRevenue']
+fsk_revenue_growth = fsk.info['revenueGrowth']
+fsk_debt = fsk.info['totalDebt']
+fsk_cash = fsk.info['totalCash']
+fsk_revenue_per_share = fsk.info['revenuePerShare']
+
+maps_price = maps.info['currentPrice']
+maps_eps = maps.info['trailingEps']
+maps_pe = maps_price/maps_eps
+maps_ps = maps.info['priceToSalesTrailing12Months']
+maps_mkt_cap = maps.info['marketCap']
+maps_revenue = maps.info['totalRevenue']
+maps_revenue_growth = maps.info['revenueGrowth']
+maps_debt = maps.info['totalDebt']
+maps_cash = maps.info['totalCash']
+maps_revenue_per_share = maps.info['revenuePerShare']
