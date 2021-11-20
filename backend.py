@@ -62,7 +62,7 @@ lmnd = Stock("LMND")
 mrvl = Stock("MRVL")
 gmsqf = Stock("GMSQF")
 
-print(gmsqf.price)
+# print(gmsqf.price)
 
 # list of funds
 qqq = yf.Ticker("QQQ")
