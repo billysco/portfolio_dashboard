@@ -1,6 +1,7 @@
 from re import S
 import yfinance as yf
 import pandas as pd
+import streamlit as st
 
 # List of Stocks
 # pltr = yf.Ticker("PLTR")
@@ -75,6 +76,10 @@ gxc = yf.Ticker("GXC")
 spy = yf.Ticker("SPY")
 vnm = yf.Ticker("VNM")
 voog = yf.Ticker("VOOG")
+
+
+
+
 
 # Stocks want to know: Price, PE, PS, MKT Cap, Revenue, % Revenue Growth, important dates(earnings/dividends)
 # pltr_price = pltr.info['currentPrice']
